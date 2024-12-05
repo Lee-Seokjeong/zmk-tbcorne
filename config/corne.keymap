@@ -48,7 +48,7 @@
             bindings = <
 &trans          &trans  &trans  &trans     &trans  &trans                 &trans  &trans  &trans  &trans  &trans  &trans
 &caps_word      &trans  &trans  &trans     &trans  &trans                 &trans  &trans  &trans  &trans  &trans  &trans
-&main_password  &trans  &trans  &trans     &trans  &pim447_scroll_move    &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans  &trans  &trans     &trans  &pim447_scroll_move    &trans  &trans  &trans  &trans  &trans  &trans
                                 &mkp LCLK  &trans  &mkp RCLK              &trans  &trans  &trans
             >;
         };
