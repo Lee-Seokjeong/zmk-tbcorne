@@ -43,6 +43,6 @@
 		scroll-divisor-y = <1>;      // Increase wheel velocity (default: 2)
 		invert-scroll-x;             // Invert wheel X axis (left is right, and vice versa)
 		button = <0>;                // Send mouse button 4 when pressing the ball which is usually ignored by the operating system (default: 0, ie. left-click)
-		poll-interval = <50>;        // Interval in milli-seconds at which the track ball is polled (default: 50)
+		poll-interval = <10>;        // Interval in milli-seconds at which the track ball is polled (default: 50)
 	};
 };
