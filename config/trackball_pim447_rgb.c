@@ -4,7 +4,7 @@
 #include <sys/printk.h>
 
 #define TRACKBALL_I2C_ADDRESS 0x0A // Pimoroni Trackball I2C 주소 (기본값)
-#define I2C_DEV DT_LABEL(DT_NODELABEL(i2c1))  // I2C 버스 이름 (여기선 i2c1 사용)
+#define I2C_DEV DT_LABEL(DT_NODELABEL(i2c0))  // I2C 버스 이름 (여기선 i2c0 사용)
 
 #define REG_LED_RED     0x00
 #define REG_LED_GRN     0x01
