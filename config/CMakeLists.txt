@@ -1,0 +1,3 @@
+target_include_directories(config PRIVATE include)
+target_sources_ifdef(CONFIG_ZMK_TRACKBALL_PIM447 config PRIVATE src/trackball_pim447.c)
+target_sources_ifdef(CONFIG_ZMK_TRACKBALL_PIM447 config PRIVATE src/trackball_pim447_led.c)
