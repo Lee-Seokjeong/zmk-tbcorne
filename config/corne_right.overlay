@@ -31,6 +31,10 @@
 		/* Modified from,
 		 * https://gitlab.com/voidyourwarranty/zmk-yackboard/-/blob/0f6f8e19688af082116604acf793aca25d5de1f1/app/boards/shields/yackboard/yackboard_right.overlay
 		 */
+                /* Optional LED color (RGB values 0-255) */
+                led-red = <255>;
+                led-green = <0>;
+                led-blue = <0>;
 		mode = <PIM447_MOVE>;        // default: PIM447_MOVE for mouse move; alternatives: PIM447_SCROLL for scroll wheel, PIM447_TOGGLE for toggle on button press
 		move-factor-x = <250>;       // Sensitivity X; default: 100
 		move-factor-y = <250>;       // Sensitivity Y; default: 100
