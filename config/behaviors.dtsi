@@ -1,0 +1,10 @@
+/ {
+    behaviors {
+        tb_pim447_led: trackball_pim447_led {
+            compatible = "zmk,behavior-pim447-led";
+            #binding-cells = <1>;
+            trackball = <&pim447_trackball>;
+            default-state = "on";   /* 트랙볼 LED 기본 ON */
+        };
+    };
+};
