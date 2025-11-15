@@ -45,6 +45,13 @@
 		invert-scroll-x;             // Invert wheel X axis (left is right, and vice versa)
 		button = <0>;                // Send mouse button 4 when pressing the ball which is usually ignored by the operating system (default: 0, ie. left-click)
 		poll-interval = <10>;        // Interval in milli-seconds at which the track ball is polled (default: 50)
+        /* LED 정의 추가 */
+        led0: led0 {
+            compatible = "zmk,led";
+            gpios = <&pro_micro 5 GPIO_ACTIVE_HIGH>;  /* 실제 LED 핀 */
+            default-state = "on";                      /* 기본 켜짐 */
+            label = "PIM447_LED";
+        };
                 
 	};
 };
