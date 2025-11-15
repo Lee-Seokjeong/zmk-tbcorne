@@ -57,15 +57,3 @@
     label = "KB_LED";
 };
 
-/* 루트 노드 아래 behaviors 정의 */
-/
-{
-    behaviors {
-        /* PIM447 내장 LED Behavior */
-        tb_pim447_led: trackball_pim447_led {
-            compatible = "zmk,behavior-pim447-led";
-            #binding-cells = <1>;
-            trackball = <&pim447_trackball>;
-        };
-    };
-};
