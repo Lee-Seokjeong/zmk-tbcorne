@@ -27,6 +27,11 @@
 		invert-move-x;
 		power-layer = <0>; /* MOUSE layer */
 		//idle-timeout = <10>; /* in seconds */
+		
+		/* Optional LED color (RGB values 0-255) */
+        led-red = <255>;
+        led-green = <0>;
+        led-blue = <0>;
 
 		/* Modified from,
 		 * https://gitlab.com/voidyourwarranty/zmk-yackboard/-/blob/0f6f8e19688af082116604acf793aca25d5de1f1/app/boards/shields/yackboard/yackboard_right.overlay
