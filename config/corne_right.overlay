@@ -45,6 +45,9 @@
 		invert-scroll-x;             // Invert wheel X axis (left is right, and vice versa)
 		button = <0>;                // Send mouse button 4 when pressing the ball which is usually ignored by the operating system (default: 0, ie. left-click)
 		poll-interval = <10>;        // Interval in milli-seconds at which the track ball is polled (default: 50)
-       
+
+/* --- LED 색상 설정 추가 --- */
+/* RGBW 형식: 0xRRGGBBWW */
+color = <0x00ff0000>; // 예시: 녹색으로 설정 (G=255)
 	};
 };
