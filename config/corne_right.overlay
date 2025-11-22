@@ -23,7 +23,7 @@
 		compatible = "pimoroni,trackball_pim447";
 		reg = <0xa>;
 		label = "PIM447_TRACKBALL";
-		int-gpios = <&gpio1 7 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
+		# int-gpios = <&gpio1 7 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
 		swap-axes;
 		invert-move-x;
 		power-layer = <0>; /* MOUSE layer */
