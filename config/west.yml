@@ -2,10 +2,18 @@ manifest:
   remotes:
     - name: zmk_ds87
       url-base: https://github.com/daniel2887
+    - name: Lee-Seokjeong
+      url-base: https://github.com/Lee-Seokjeong
+      
   projects:
     - name: zmk
       remote: zmk_ds87
       revision: ds87-mouse-pim447
       import: app/west.yml
+      
+    - name: pim447
+      remote: Lee-Seokjeong
+      revision: main
+      
   self:
     path: config
