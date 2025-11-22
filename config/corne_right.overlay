@@ -48,3 +48,17 @@
 
 	};
 };
+
+// --- 여기에 LED 관련 동작 정의 추가 ---
+
+/ {
+    behaviors {
+        // 'p447_rgb'는 키맵에서 사용할 이름입니다.
+        p447_rgb: p447_rgb_behavior {
+            compatible = "zmk,behavior-pim447-led"; 
+            label = "PIM447_LED_BEHAVIOR";
+            // pim447_trackball@a 노드의 I2C 주소를 참조합니다.
+            i2c = <&pro_micro_i2c 0x0A>; 
+        };
+    };
+};
